@@ -1,16 +1,16 @@
-#Tue Jun 06 11:01:52 PDT 2017
+#Wed Jun 07 15:46:07 PDT 2017
 renamed.4=classes3.dex
-renamed.3=classes2.dex
-renamed.2=classes.dex
-renamed.1=classes4.dex
-base.4=C\:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_5e813752c29ffb281ac6fbcd534a990862712d67
+renamed.3=classes.dex
+renamed.2=classes4.dex
+renamed.1=classes2.dex
+base.4=C\:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_5e813752c29ffb281ac6fbcd534a990862712d67
 renamed.0=classes5.dex
-base.3=C\:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_39b32ce94e0f9e1c737b8f2d18df4af281f89827
-base.2=C\:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_316d4fac75e8214a74db369a4624667c9a5613d8
-base.1=C\:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_9a2fe8856e7c2efb351a4a4a5442e230046b9288
-base.0=C\:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\IOIOLibCore-5.05_3976fa03e1f9663ea1ee93741d57ee625f50cc91
-file.4=C\:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_5e813752c29ffb281ac6fbcd534a990862712d67\\classes.dex
-file.3=C\:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_39b32ce94e0f9e1c737b8f2d18df4af281f89827\\classes.dex
-file.2=C\:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_316d4fac75e8214a74db369a4624667c9a5613d8\\classes.dex
-file.1=C\:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_9a2fe8856e7c2efb351a4a4a5442e230046b9288\\classes.dex
-file.0=C\:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\IOIOLibCore-5.05_3976fa03e1f9663ea1ee93741d57ee625f50cc91\\classes.dex
+base.3=C\:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_316d4fac75e8214a74db369a4624667c9a5613d8
+base.2=C\:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_9a2fe8856e7c2efb351a4a4a5442e230046b9288
+base.1=C\:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_39b32ce94e0f9e1c737b8f2d18df4af281f89827
+base.0=C\:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\IOIOLibCore-5.05_3976fa03e1f9663ea1ee93741d57ee625f50cc91
+file.4=C\:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_5e813752c29ffb281ac6fbcd534a990862712d67\\classes.dex
+file.3=C\:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_316d4fac75e8214a74db369a4624667c9a5613d8\\classes.dex
+file.2=C\:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_9a2fe8856e7c2efb351a4a4a5442e230046b9288\\classes.dex
+file.1=C\:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_39b32ce94e0f9e1c737b8f2d18df4af281f89827\\classes.dex
+file.0=C\:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\IOIOLibCore-5.05_3976fa03e1f9663ea1ee93741d57ee625f50cc91\\classes.dex

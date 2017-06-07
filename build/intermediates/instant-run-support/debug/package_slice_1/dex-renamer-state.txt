@@ -1,4 +1,4 @@
-#Tue Jun 06 11:01:53 PDT 2017
-base.0=C\:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1
+#Wed Jun 07 15:46:07 PDT 2017
+base.0=C\:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1
 renamed.0=classes.dex
-file.0=C\:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1\\classes.dex
+file.0=C\:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_1\\classes.dex

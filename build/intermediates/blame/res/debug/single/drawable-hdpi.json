@@ -1,18 +1,26 @@
 [
     {
-        "merged": "/Users/fernando/Downloads/ABR_AutoRover/build/intermediates/res/merged/debug/drawable-hdpi/ic_action_search.png",
-        "source": "/Users/fernando/Downloads/ABR_AutoRover/src/main/res/drawable-hdpi/ic_action_search.png"
+        "merged": "C:\\Users\\fernando\\Downloads\\ABR_AutoRover\\C:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_search.png",
+        "source": "C:\\Users\\fernando\\Downloads\\ABR_AutoRover\\C:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\src\\main\\res\\drawable-hdpi\\ic_action_search.png"
     },
     {
-        "merged": "/Users/fernando/Downloads/ABR_AutoRover/C:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
-        "source": "/Users/fernando/Downloads/ABR_AutoRover/C:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+        "merged": "C:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/fernando/Downloads/ABR_AutoRover/C:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_search.png",
-        "source": "/Users/fernando/Downloads/ABR_AutoRover/C:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\src\\main\\res\\drawable-hdpi\\ic_action_search.png"
+        "merged": "C:\\Users\\fernando\\Downloads\\ABR_AutoRover\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\fernando\\Downloads\\ABR_AutoRover\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "/Users/fernando/Downloads/ABR_AutoRover/build/intermediates/res/merged/debug/drawable-hdpi/ic_launcher.png",
-        "source": "/Users/fernando/Downloads/ABR_AutoRover/src/main/res/drawable-hdpi/ic_launcher.png"
+        "merged": "C:\\Users\\fernando\\Downloads\\ABR_AutoRover\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_search.png",
+        "source": "C:\\Users\\fernando\\Downloads\\ABR_AutoRover\\src\\main\\res\\drawable-hdpi\\ic_action_search.png"
+    },
+    {
+        "merged": "C:\\Users\\fernando\\Downloads\\ABR_AutoRover\\C:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\fernando\\Downloads\\ABR_AutoRover\\C:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_search.png",
+        "source": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\drawable-hdpi\\ic_action_search.png"
     }
 ]

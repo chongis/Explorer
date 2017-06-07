@@ -1,10 +1,14 @@
 [
     {
-        "merged": "/Users/fernando/Downloads/ABR_AutoRover/build/intermediates/res/merged/debug/layout/main.xml",
-        "source": "/Users/fernando/Downloads/ABR_AutoRover/src/main/res/layout/main.xml"
+        "merged": "C:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\layout\\main.xml"
     },
     {
-        "merged": "/Users/fernando/Downloads/ABR_AutoRover/C:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
-        "source": "/Users/fernando/Downloads/ABR_AutoRover/C:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\src\\main\\res\\layout\\main.xml"
+        "merged": "C:\\Users\\fernando\\Downloads\\ABR_AutoRover\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\fernando\\Downloads\\ABR_AutoRover\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\fernando\\Downloads\\ABR_AutoRover\\C:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\fernando\\Downloads\\ABR_AutoRover\\C:\\Users\\fernando\\Documents\\Psych169-GitHub\\ABR_AutoRover\\src\\main\\res\\layout\\main.xml"
     }
 ]

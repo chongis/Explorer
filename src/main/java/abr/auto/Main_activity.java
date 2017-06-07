@@ -37,6 +37,7 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 	float[] mGravity;
 	float[] mGyro;
 	float[] mGeomagnetic;
+	float[] data = new float[1000];
 	private float[] mR = new float[9];
 	private float[] mOrientation = new float[3];
 	private float mCurrentDegree = 0f;
@@ -79,6 +80,17 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 		// Do something here if sensor accuracy changes.
 	}
 
+	public void updater(float x){
+		for (int i = 1;i < data.length; i++){
+			if (data[i] == 0){
+				data[i] = x;
+				Log.d("V",String.valueOf(x));
+				break;
+
+
+			}
+		}
+	}
 	// Called whenever the value of a sensor changes
 	// Should be called whenever a sensor changes.
 	// Good time to get IR values and send move commands to the robot
@@ -95,6 +107,9 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 			//setText(String.format("%.3f", m_ioio_thread.getIrRightReading()), irRightText);
 			if (btnStartStop.isChecked()) {
 				//m_ioio_thread.move(0.5f,0.5f,true,true);
+				Log.d("V","Button Pressed");
+
+				updater(mCurrentDegree);
 
 				rightspeed = speedright_;
 				leftspeed = speedleft_;
