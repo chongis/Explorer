@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\fernando\Documents\Psych169-GitHub\ABR_AutoRover\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3842202cfc081984b659ee1272beb65e82d222aa">
+        <dex dex="C:\Users\fernando\Documents\Psych169-GitHub\ABR_AutoRover\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_68a5d36461b84d39bae49a1e1d426b7ec435e0c8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\fernando\.gradle\caches\modules-2\files-2.1\com.github.ytai.ioio\IOIOLibCore\5.05\99821d5ab444306c6e39f3de72f85c4b287a6765\IOIOLibCore-5.05.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="99821d5ab444306c6e39f3de72f85c4b287a6765">
+        <dex dex="C:\Users\fernando\Documents\Psych169-GitHub\ABR_AutoRover\build\intermediates\transforms\dex\debug\folders\1000\10\IOIOLibCore-5.05_3976fa03e1f9663ea1ee93741d57ee625f50cc91\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\fernando\Documents\Psych169-GitHub\ABR_AutoRover\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\Users\fernando\Documents\Psych169-GitHub\ABR_AutoRover\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e0efd7134eabd4184c5ce088e29fb159d99e6b01\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\fernando\.android\build-cache\b0b57feb614f1c83bd4d6a8cdb03c16272a551b1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c76a0936c82cef3da0770204f51f4914f32f6e08">
+        <dex dex="C:\Users\fernando\Documents\Psych169-GitHub\ABR_AutoRover\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9a2fe8856e7c2efb351a4a4a5442e230046b9288\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\fernando\.android\build-cache\79b7a4ae2cbec277e8aaf1aa186398e6309dbf9d\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7eb8cafa44ed70860615af51c83606945c43fe73">
+        <dex dex="C:\Users\fernando\Documents\Psych169-GitHub\ABR_AutoRover\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5e813752c29ffb281ac6fbcd534a990862712d67\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\fernando\.android\build-cache\1614bdc0a0c7c98035bc69c96383842acd93a775\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f347dcaafe682fdd3d3131c9d6568065a8cd83ab">
+        <dex dex="C:\Users\fernando\Documents\Psych169-GitHub\ABR_AutoRover\build\intermediates\transforms\dex\debug\folders\1000\10\classes_39b32ce94e0f9e1c737b8f2d18df4af281f89827\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\fernando\.android\build-cache\8b84f0c14fb91c8727b0acd20f2eb5375a3d6000\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fc276dd77600f248e53cc0bbf77a011d87931840">
+        <dex dex="C:\Users\fernando\Documents\Psych169-GitHub\ABR_AutoRover\build\intermediates\transforms\dex\debug\folders\1000\10\classes_316d4fac75e8214a74db369a4624667c9a5613d8\classes.dex" />
+    </item>
+
+</items>

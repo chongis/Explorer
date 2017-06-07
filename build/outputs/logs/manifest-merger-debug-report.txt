@@ -1,0 +1,139 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:2:1-50:12
+	package
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:5:2-20
+		INJECTED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml
+		INJECTED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:4:2-27
+		INJECTED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml
+		INJECTED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml
+	android:versionCode
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:3:2-25
+		INJECTED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml
+		INJECTED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.BLUETOOTH
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:7:2-65
+MERGED from [com.github.ytai.ioio:IOIOLibAndroidBluetooth:5.05] /Users/fernando/.android/build-cache/caea190c4dc10dfad0da9314be91ac848ed5c324/output/AndroidManifest.xml:7:5-68
+	android:name
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:7:19-62
+uses-permission#android.permission.INTERNET
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:8:2-64
+MERGED from [com.github.ytai.ioio:IOIOLibAndroid:5.05] /Users/fernando/.android/build-cache/6bd09aa443f577225f6cc872438e2664453b7450/output/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:8:19-61
+uses-permission#android.permission.CAMERA
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:9:2-61
+	android:name
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:9:19-59
+uses-feature#android.hardware.camera
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:10:2-56
+	android:name
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:10:16-54
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:11:2-66
+	android:name
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:11:16-64
+uses-feature#android.hardware.camera.front
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:12:2-62
+	android:name
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:12:16-60
+uses-feature#android.hardware.camera.front.autofocus
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:13:2-72
+	android:name
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:13:16-70
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:14:2-76
+	android:name
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:14:19-73
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:15:2-78
+	android:name
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:15:19-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:16:2-77
+	android:name
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:16:19-75
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:17:2-76
+	android:name
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:17:19-74
+uses-sdk
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:19:2-71
+	android:targetSdkVersion
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:19:12-41
+	android:minSdkVersion
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:19:42-68
+application
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:20:2-49:16
+	android:label
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:22:3-35
+	android:icon
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:21:3-39
+uses-library#com.android.future.usb.accessory
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:23:3-24:31
+	android:required
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:24:4-28
+	android:name
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:23:17-64
+activity#abr.auto.Main_activity
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:26:3-48:14
+	android:screenOrientation
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:30:4-41
+	android:label
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:27:4-36
+	android:launchMode
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:29:4-35
+	android:name
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:28:4-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:32:13-35:29
+action#android.intent.action.MAIN
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:34:17-77
+	android:name
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:34:27-74
+intent-filter#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:37:4-39:20
+action#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:38:5-81
+	android:name
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:38:13-78
+intent-filter#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:40:4-42:20
+action#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:41:5-78
+	android:name
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:41:13-75
+meta-data#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:43:4-44:48
+	android:resource
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:44:5-45
+	android:name
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:43:15-80
+meta-data#android.hardware.usb.action.USB_DEVICE_ATTACHED
+ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:45:4-46:45
+	android:resource
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:46:5-42
+	android:name
+		ADDED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:45:15-77
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from /Users/fernando/Downloads/ABR_AutoRover/src/main/AndroidManifest.xml:2:1-50:12 reason: ioio.lib.bluetooth has a targetSdkVersion < 4
+uses-feature#android.hardware.usb.accessory
+ADDED from [com.github.ytai.ioio:IOIOLibAndroidAccessory:5.05] /Users/fernando/.android/build-cache/0765ee68379b4d237b5887ee3a05901ab7c587e8/output/AndroidManifest.xml:7:5-9:36
+	android:required
+		ADDED from [com.github.ytai.ioio:IOIOLibAndroidAccessory:5.05] /Users/fernando/.android/build-cache/0765ee68379b4d237b5887ee3a05901ab7c587e8/output/AndroidManifest.xml:9:9-33
+	android:name
+		ADDED from [com.github.ytai.ioio:IOIOLibAndroidAccessory:5.05] /Users/fernando/.android/build-cache/0765ee68379b4d237b5887ee3a05901ab7c587e8/output/AndroidManifest.xml:8:9-54
+uses-feature#android.hardware.usb.host
+ADDED from [com.github.ytai.ioio:IOIOLibAndroidDevice:5.05] /Users/fernando/.android/build-cache/16154a4debddecbe5dad3fb2faef944bb296dde7/output/AndroidManifest.xml:7:5-9:36
+	android:required
+		ADDED from [com.github.ytai.ioio:IOIOLibAndroidDevice:5.05] /Users/fernando/.android/build-cache/16154a4debddecbe5dad3fb2faef944bb296dde7/output/AndroidManifest.xml:9:9-33
+	android:name
+		ADDED from [com.github.ytai.ioio:IOIOLibAndroidDevice:5.05] /Users/fernando/.android/build-cache/16154a4debddecbe5dad3fb2faef944bb296dde7/output/AndroidManifest.xml:8:9-49
