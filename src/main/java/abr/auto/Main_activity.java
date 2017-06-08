@@ -11,6 +11,11 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 import android.widget.ToggleButton;
+
+import com.jjoe64.graphview.GraphView;
+import com.jjoe64.graphview.series.DataPoint;
+import com.jjoe64.graphview.series.LineGraphSeries;
+
 import java.lang.String;
 
 import ioio.lib.util.IOIOLooper;
@@ -42,6 +47,8 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 	private float[] mOrientation = new float[3];
 	private float mCurrentDegree = 0f;
 
+	int counter = 0;
+
 	float speedleft_ = .30f;
 	float speedright_ = .30f;
 	float leftspeed = speedleft_;
@@ -69,6 +76,17 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 		mGyroscope = mSensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE);
 		mGravityS = mSensorManager.getDefaultSensor(Sensor.TYPE_GRAVITY);
 
+		GraphView graph = (GraphView) findViewById(R.id.graph);
+		LineGraphSeries<DataPoint> series = new LineGraphSeries<>(new DataPoint[] {
+				new DataPoint(0, 1),
+				new DataPoint(1, 5),
+				new DataPoint(2, 3),
+				new DataPoint(3, 2),
+				new DataPoint(4, 6)
+		});
+		graph.addSeries(series);
+
+
 		helper_.create();		// from IOIOActivity
 
 		// enableUi(false);
@@ -80,10 +98,28 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 		// Do something here if sensor accuracy changes.
 	}
 
-	public void updater(float x){
+	public void counter(){
+		counter = 0;
+		for (int i = 1; i<data.length; i++){
+			if (data[i] != 0.0){
+				counter++;
+			}
+		}
+	}
+
+
+	public void updater(float x, boolean reverse){
 		for (int i = 1;i < data.length; i++){
-			if (data[i] == 0){
+			if (data[i] == 0.0){
 				data[i] = x;
+				if (reverse == true) {
+					float temp_x = x + 180;
+					if (temp_x > 360) {
+						temp_x = temp_x -360;
+					}
+					data[i] = temp_x;
+				}
+
 				Log.d("V",String.valueOf(x));
 				break;
 
@@ -103,13 +139,14 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 
 			// ----------------
 			setText(String.format("%.3f", m_ioio_thread.getIrLeftReading()), irLeftText);
-			setText(String.format("%.3f", m_ioio_thread.getIrCenterReading()), irCenterText);
+			setText(String.format("%.3d", counter), irCenterText);
 			//setText(String.format("%.3f", m_ioio_thread.getIrRightReading()), irRightText);
 			if (btnStartStop.isChecked()) {
 				//m_ioio_thread.move(0.5f,0.5f,true,true);
 				Log.d("V","Button Pressed");
+				counter();
 
-				updater(mCurrentDegree);
+				updater(mCurrentDegree, false);
 
 				rightspeed = speedright_;
 				leftspeed = speedleft_;
@@ -125,6 +162,7 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 				}
 				if (centersense >= 1.2) {
 					forward = false;
+					updater(mCurrentDegree, true);
 				}
 				if (centersense < 1.2) {
 					forward = true;

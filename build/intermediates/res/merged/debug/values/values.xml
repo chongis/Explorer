@@ -22,6 +22,7 @@
     <color name="teal">#008080</color>
     <color name="white">#FFFFFF</color>
     <color name="yellow">#FFFF00</color>
+    <declare-styleable name="GraphViewXML"><attr format="string" name="seriesData"/><attr format="string" name="seriesType"/><attr format="string" name="seriesTitle"/><attr name="android:title"/><attr format="color" name="seriesColor"/></declare-styleable>
     <dimen name="login_button_size">150dp</dimen>
     <string name="app_name">Auto Rover</string>
     <string name="cd_prompt">Display image type</string>

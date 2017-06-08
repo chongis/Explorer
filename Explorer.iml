@@ -107,9 +107,11 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="IOIOLibCore-5.05" level="project" />
     <orderEntry type="library" exported="" name="IOIOLibAndroid-5.05" level="project" />
+    <orderEntry type="library" exported="" name="graphview-4.2.1" level="project" />
     <orderEntry type="library" exported="" name="IOIOLibAndroidDevice-5.05" level="project" />
+    <orderEntry type="library" exported="" name="support-annotations-22.1.1" level="project" />
+    <orderEntry type="library" exported="" name="support-v4-22.1.1" level="project" />
     <orderEntry type="library" exported="" name="IOIOLibAndroidBluetooth-5.05" level="project" />
     <orderEntry type="library" exported="" name="IOIOLibAndroidAccessory-5.05" level="project" />
-    <orderEntry type="library" exported="" name="android-android-23" level="project" />
   </component>
 </module>
