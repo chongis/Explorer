@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Jun 09 12:30:29 PDT 2017
+#Fri Jun 09 12:57:10 PDT 2017
 8.set=ANDROID_RESOURCE
 1.base=C\:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\res\\resources-debug.ap_
 1.file=C\:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\main.xml

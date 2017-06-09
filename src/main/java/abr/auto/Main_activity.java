@@ -154,8 +154,8 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 		for (int i = 1; i < counter; i++){
 			float x_point = (float) data[i];
 			float y_point = (float) data[i];
-			double x = (double) x_point;
-			double y = (double) y_point;
+			double x = (double) x_point * 0.0174533; //Conversion to radians
+			double y = (double) y_point * 0.0174533;
 			y = sin(y) * i;
 			x = cos(x) * i;
 			toSendx = toSendx + String.valueOf(x) + ' ';
