@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/Users/fernando/Documents/Explorer/build/intermediates/res/merged/debug/layout/main.xml",
-        "source": "/Users/fernando/Documents/Explorer/src/main/res/layout/main.xml"
+        "merged": "C:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\layout\\main.xml"
     }
 ]

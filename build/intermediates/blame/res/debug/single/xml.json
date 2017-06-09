@@ -1,10 +1,18 @@
 [
     {
-        "merged": "/Users/fernando/Documents/Explorer/build/intermediates/res/merged/debug/xml/accessory_filter.xml",
-        "source": "/Users/fernando/Documents/Explorer/src/main/res/xml/accessory_filter.xml"
+        "merged": "C:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\res\\merged\\debug\\xml\\accessory_filter.xml",
+        "source": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\xml\\accessory_filter.xml"
     },
     {
-        "merged": "/Users/fernando/Documents/Explorer/build/intermediates/res/merged/debug/xml/device_filter.xml",
-        "source": "/Users/fernando/.android/build-cache/16154a4debddecbe5dad3fb2faef944bb296dde7/output/res/xml/device_filter.xml"
+        "merged": "C:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\res\\merged\\debug\\xml\\accessory_filter.xml",
+        "source": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\xml\\accessory_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\res\\merged\\debug\\xml\\device_filter.xml",
+        "source": "C:\\Users\\fernando\\.android\\build-cache\\79b7a4ae2cbec277e8aaf1aa186398e6309dbf9d\\output\\res\\xml\\device_filter.xml"
+    },
+    {
+        "merged": "C:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\res\\merged\\debug\\xml\\device_filter.xml",
+        "source": "C:\\Users\\fernando\\.android\\build-cache\\16154a4debddecbe5dad3fb2faef944bb296dde7\\output\\res\\xml\\device_filter.xml"
     }
 ]

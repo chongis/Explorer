@@ -1,10 +1,18 @@
 [
     {
-        "merged": "/Users/fernando/Documents/Explorer/build/intermediates/res/merged/debug/drawable/image_button_bg.png",
-        "source": "/Users/fernando/Documents/Explorer/src/main/res/drawable/image_button_bg.png"
+        "merged": "C:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\res\\merged\\debug\\drawable\\image_button_bg.png",
+        "source": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\drawable\\image_button_bg.png"
     },
     {
-        "merged": "/Users/fernando/Documents/Explorer/build/intermediates/res/merged/debug/drawable/image_button.png",
-        "source": "/Users/fernando/Documents/Explorer/src/main/res/drawable/image_button.png"
+        "merged": "C:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\res\\merged\\debug\\drawable\\image_button.png",
+        "source": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\drawable\\image_button.png"
+    },
+    {
+        "merged": "C:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\res\\merged\\debug\\drawable\\image_button_bg.png",
+        "source": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\drawable\\image_button_bg.png"
+    },
+    {
+        "merged": "C:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\res\\merged\\debug\\drawable\\image_button.png",
+        "source": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\drawable\\image_button.png"
     }
 ]

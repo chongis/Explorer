@@ -49,11 +49,14 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 	float[] mGravity;
 	float[] mGyro;
 	float[] mGeomagnetic;
-	float[] data = new float[1000];
+	float[] senseAr = new float[50];
+	float[] data = new float[100000];
 	private float[] mR = new float[9];
 	private float[] mOrientation = new float[3];
 	private float mCurrentDegree = 0f;
 	String toSend = "";
+	String toSendx = "";
+	String toSendy = "";
 
 	int counter = 0;
 
@@ -112,6 +115,34 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 				counter++;
 			}
 		}
+		irCenterText.setText(String.valueOf(counter));
+	}
+
+	public void avg_sense() {
+		//senseAr
+		if (senseAr[senseAr.length - 1] == 0.0){
+			//Log.d("V")
+			for (int i = 1; i < senseAr.length; i++){
+				if (senseAr[i] == 0.0){
+					senseAr[i] = mCurrentDegree;
+					break;
+				}
+			}
+		}
+		else {
+			Log.d("V","Average" + String.valueOf(average(senseAr)));
+			updater(average(senseAr),false);
+			senseAr = new float[senseAr.length];
+		}
+	}
+
+	public float average(float[] x){
+		float answer = 0;
+		for (int i = 1; i < x.length; i++){
+			answer = answer + x[i];
+		}
+		answer = answer/x.length;
+		return answer;
 	}
 
 	public void graph_now(View view) {
@@ -127,20 +158,24 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 			double y = (double) y_point;
 			y = sin(y) * i;
 			x = cos(x) * i;
-			toSend = toSend + '(' + String.valueOf(x+500) + ',' + String.valueOf(y+500) + "), ";
-			n[i] = new DataPoint(x+2,y+2);
+			toSendx = toSendx + String.valueOf(x) + ' ';
+			toSendy = toSendy + String.valueOf(y) + ' ';
+			toSend = toSend + String.valueOf(data[i])+' ';
+			//toSend = toSend + '(' + String.valueOf(x) + ',' + String.valueOf(y) + "), ";
+			n[i] = new DataPoint(x,y);
 			Log.d("V",String.valueOf(x) + String.valueOf(y));
 		}
-		//sender();
-		series = new LineGraphSeries<>(n);
-		graph.addSeries(series);
+		sender();
+		//series = new LineGraphSeries<>(n);
+		//graph.addSeries(series);
 	}
 	public void sender(){
+		String temp = "x = [" + toSendx + "]\n\n" + "y = [" + toSendy + "]\n\n" + "bearing = [" + toSend + "]";
 		Intent intent = new Intent(Intent.ACTION_SEND);
 		intent.setType("text/html");
 		intent.putExtra(Intent.EXTRA_EMAIL, "frnpnc@gmail.com");
 		intent.putExtra(Intent.EXTRA_SUBJECT, "Subject");
-		intent.putExtra(Intent.EXTRA_TEXT, toSend);
+		intent.putExtra(Intent.EXTRA_TEXT, temp);
 
 		startActivity(Intent.createChooser(intent, "Send Email"));
 
@@ -221,8 +256,11 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 
 		// Sensor downloading
 		if (btnStartStop.isChecked()){
-			updater(mCurrentDegree, false);
+			//updater(mCurrentDegree, false);
+			avg_sense();
+			counter();
 		}
+
 
 
 		// sensors unused for the moment.  may want to implement later
@@ -248,7 +286,10 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 			SensorManager.getOrientation(mR, mOrientation);
 			float azimuthInRadians = mOrientation[0];
 			float azimuthInDegress = (float)(Math.toDegrees(azimuthInRadians)+360)%360;
-			mCurrentDegree = azimuthInDegress;
+			mCurrentDegree = azimuthInDegress + (float) 90.0;
+			if (mCurrentDegree > 360) {
+				mCurrentDegree = mCurrentDegree -360;
+			}
 			setText(String.format("%.3f", mCurrentDegree), irRightText);
 			//Log.d("V",String.valueOf(mCurrentDegree));
 		}

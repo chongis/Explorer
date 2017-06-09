@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\fernando\.android\build-cache\e281c51dbb73654815004e42624e3d6573fd9de9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="987adec819c9a98faf215814f41195da48fc724e">
+        <dex dex="C:\Users\fernando\Documents\Explorer\build\intermediates\pre-dexed\debug\classes_fae070514524e6c7e8e29b2d2fc1b23a45d52077.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\fernando\.android\build-cache\ccb5b8f921fdcba2eef3c8fc78c115df02dedc5c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
+        <dex dex="C:\Users\fernando\Documents\Explorer\build\intermediates\pre-dexed\debug\classes_cdeff09ae933e517fa19c4891205f01a6bfb4496.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\fernando\.android\build-cache\ccb5b8f921fdcba2eef3c8fc78c115df02dedc5c\output\jars\libs\internal_impl-22.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="C:\Users\fernando\Documents\Explorer\build\intermediates\pre-dexed\debug\internal_impl-22.1.1_ddf93534d1ac6edf846ea3f4867cb7bd058e6de7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\fernando\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.1.1\support-annotations-22.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
+        <dex dex="C:\Users\fernando\Documents\Explorer\build\intermediates\pre-dexed\debug\support-annotations-22.1.1_201d6a8b8c4042432ddb9143e42c193322c97b6e.jar" />
+    </item>
+
+</items>
