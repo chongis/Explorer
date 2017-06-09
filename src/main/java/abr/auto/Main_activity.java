@@ -2,6 +2,7 @@ package abr.auto;
 
 import android.app.Activity;
 import android.content.Context;
+import java.lang.Math;
 import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
@@ -9,6 +10,8 @@ import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.ToggleButton;
 
@@ -22,6 +25,8 @@ import ioio.lib.util.IOIOLooper;
 import ioio.lib.util.IOIOLooperProvider;
 import ioio.lib.util.android.IOIOAndroidApplicationHelper;
 
+import static java.lang.Math.cos;
+import static java.lang.Math.sin;
 import static java.lang.Thread.sleep;
 
 public class Main_activity extends Activity implements IOIOLooperProvider, SensorEventListener        // implements IOIOLooperProvider: from IOIOActivity
@@ -31,11 +36,13 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 	private TextView irCenterText;
 	private TextView irRightText;
 	private ToggleButton btnStartStop;
+	private Button btnGraph;
 
 	//variables for compass
 	private SensorManager mSensorManager;
 	private Sensor mCompass, mAccelerometer;
 	float[] mAcc;
+
 	//variables for logging
 	private Sensor mGyroscope;
 	private Sensor mGravityS;
@@ -46,6 +53,7 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 	private float[] mR = new float[9];
 	private float[] mOrientation = new float[3];
 	private float mCurrentDegree = 0f;
+	String toSend = "";
 
 	int counter = 0;
 
@@ -68,6 +76,7 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 		irCenterText = (TextView) findViewById(R.id.irCenter);
 		irRightText = (TextView) findViewById(R.id.irRight);
 		btnStartStop = (ToggleButton) findViewById(R.id.buttonStartStop);
+		btnGraph = (Button) findViewById(R.id.buttonGraph);
 
 		//set up compass
 		mSensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
@@ -78,11 +87,9 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 
 		GraphView graph = (GraphView) findViewById(R.id.graph);
 		LineGraphSeries<DataPoint> series = new LineGraphSeries<>(new DataPoint[] {
-				new DataPoint(0, 1),
-				new DataPoint(1, 5),
-				new DataPoint(2, 3),
-				new DataPoint(3, 2),
-				new DataPoint(4, 6)
+				new DataPoint(0, 1.1),
+				new DataPoint(-1, 5),
+				new DataPoint(0, 3)
 		});
 		graph.addSeries(series);
 
@@ -107,12 +114,42 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 		}
 	}
 
+	public void graph_now(View view) {
+		GraphView graph = (GraphView) findViewById(R.id.graph);
+		LineGraphSeries<DataPoint> series;
+		counter();
+		DataPoint[] n = new DataPoint[counter];
 
+		for (int i = 1; i < counter; i++){
+			float x_point = (float) data[i];
+			float y_point = (float) data[i];
+			double x = (double) x_point;
+			double y = (double) y_point;
+			y = sin(y) * i;
+			x = cos(x) * i;
+			toSend = toSend + '(' + String.valueOf(x+500) + ',' + String.valueOf(y+500) + "), ";
+			n[i] = new DataPoint(x+2,y+2);
+			Log.d("V",String.valueOf(x) + String.valueOf(y));
+		}
+		//sender();
+		series = new LineGraphSeries<>(n);
+		graph.addSeries(series);
+	}
+	public void sender(){
+		Intent intent = new Intent(Intent.ACTION_SEND);
+		intent.setType("text/html");
+		intent.putExtra(Intent.EXTRA_EMAIL, "frnpnc@gmail.com");
+		intent.putExtra(Intent.EXTRA_SUBJECT, "Subject");
+		intent.putExtra(Intent.EXTRA_TEXT, toSend);
+
+		startActivity(Intent.createChooser(intent, "Send Email"));
+
+	}
 	public void updater(float x, boolean reverse){
 		for (int i = 1;i < data.length; i++){
 			if (data[i] == 0.0){
 				data[i] = x;
-				if (reverse == true) {
+				if (reverse) {
 					float temp_x = x + 180;
 					if (temp_x > 360) {
 						temp_x = temp_x -360;
@@ -139,7 +176,8 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 
 			// ----------------
 			setText(String.format("%.3f", m_ioio_thread.getIrLeftReading()), irLeftText);
-			setText(String.format("%.3d", counter), irCenterText);
+			//setText(String.format("%.3d", counter), irCenterText);
+			Log.d("V",String.valueOf(counter));
 			//setText(String.format("%.3f", m_ioio_thread.getIrRightReading()), irRightText);
 			if (btnStartStop.isChecked()) {
 				//m_ioio_thread.move(0.5f,0.5f,true,true);
@@ -177,8 +215,15 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 			}
 			else {
 				m_ioio_thread.move(0.0f,0.0f,false,false);
+
 			}
 		}
+
+		// Sensor downloading
+		if (btnStartStop.isChecked()){
+			updater(mCurrentDegree, false);
+		}
+
 
 		// sensors unused for the moment.  may want to implement later
 		if (event.sensor.getType() == Sensor.TYPE_GRAVITY) {
@@ -205,7 +250,7 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 			float azimuthInDegress = (float)(Math.toDegrees(azimuthInRadians)+360)%360;
 			mCurrentDegree = azimuthInDegress;
 			setText(String.format("%.3f", mCurrentDegree), irRightText);
-			Log.d("V",String.valueOf(mCurrentDegree));
+			//Log.d("V",String.valueOf(mCurrentDegree));
 		}
 
 
