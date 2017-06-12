@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/Users/fernando/Downloads/Explorer/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 241
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -32,7 +32,7 @@
                     "endOffset": 280
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/color.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -51,7 +51,7 @@
                     "endOffset": 320
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/color.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -70,7 +70,7 @@
                     "endOffset": 359
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/color.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -89,7 +89,7 @@
                     "endOffset": 401
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/color.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -108,7 +108,7 @@
                     "endOffset": 440
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/color.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -127,7 +127,7 @@
                     "endOffset": 480
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/color.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -146,7 +146,7 @@
                     "endOffset": 519
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/color.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -165,7 +165,7 @@
                     "endOffset": 560
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/color.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -184,7 +184,7 @@
                     "endOffset": 599
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/color.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -203,7 +203,7 @@
                     "endOffset": 639
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/color.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -222,7 +222,7 @@
                     "endOffset": 680
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/color.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -241,7 +241,7 @@
                     "endOffset": 718
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/color.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -260,7 +260,7 @@
                     "endOffset": 759
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/color.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -279,7 +279,7 @@
                     "endOffset": 798
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/color.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -298,7 +298,7 @@
                     "endOffset": 838
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/color.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -317,7 +317,7 @@
                     "endOffset": 879
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/color.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -336,7 +336,7 @@
                     "endOffset": 1186
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\dimens.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/dimens.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -355,7 +355,7 @@
                     "endOffset": 1234
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -374,7 +374,7 @@
                     "endOffset": 1291
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -393,7 +393,7 @@
                     "endOffset": 1344
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -412,7 +412,7 @@
                     "endOffset": 1392
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -431,7 +431,7 @@
                     "endOffset": 1441
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -450,7 +450,7 @@
                     "endOffset": 1485
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -469,7 +469,7 @@
                     "endOffset": 1531
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -488,7 +488,7 @@
                     "endOffset": 1582
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -507,7 +507,7 @@
                     "endOffset": 1622
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -526,7 +526,7 @@
                     "endOffset": 1660
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -545,7 +545,7 @@
                     "endOffset": 1723
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -564,7 +564,7 @@
                     "endOffset": 1781
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\styles.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/src/main/res/values/styles.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -577,7 +577,7 @@
         ]
     },
     {
-        "outputFile": "C:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -589,7 +589,7 @@
                     "endOffset": 241
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -609,7 +609,7 @@
                     "endOffset": 280
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -628,7 +628,7 @@
                     "endOffset": 320
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -647,7 +647,7 @@
                     "endOffset": 359
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -666,7 +666,7 @@
                     "endOffset": 401
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -685,7 +685,7 @@
                     "endOffset": 440
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -704,7 +704,7 @@
                     "endOffset": 480
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -723,7 +723,7 @@
                     "endOffset": 519
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -742,7 +742,7 @@
                     "endOffset": 560
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -761,7 +761,7 @@
                     "endOffset": 599
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -780,7 +780,7 @@
                     "endOffset": 639
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -799,7 +799,7 @@
                     "endOffset": 680
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -818,7 +818,7 @@
                     "endOffset": 718
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -837,7 +837,7 @@
                     "endOffset": 759
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -856,7 +856,7 @@
                     "endOffset": 798
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -875,7 +875,7 @@
                     "endOffset": 838
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -894,7 +894,7 @@
                     "endOffset": 879
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\color.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -913,7 +913,7 @@
                     "endOffset": 1186
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\dimens.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\dimens.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -932,7 +932,7 @@
                     "endOffset": 1234
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -951,7 +951,7 @@
                     "endOffset": 1291
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -970,7 +970,7 @@
                     "endOffset": 1344
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -989,7 +989,7 @@
                     "endOffset": 1392
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -1008,7 +1008,7 @@
                     "endOffset": 1441
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -1027,7 +1027,7 @@
                     "endOffset": 1485
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -1046,7 +1046,7 @@
                     "endOffset": 1531
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -1065,7 +1065,7 @@
                     "endOffset": 1582
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -1084,7 +1084,7 @@
                     "endOffset": 1622
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -1103,7 +1103,7 @@
                     "endOffset": 1660
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -1122,7 +1122,7 @@
                     "endOffset": 1723
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -1141,7 +1141,7 @@
                     "endOffset": 1781
                 },
                 "from": {
-                    "file": "C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\styles.xml",
+                    "file": "/Users/fernando/Downloads/Explorer/C:\\Users\\fernando\\Documents\\Explorer\\src\\main\\res\\values\\styles.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

@@ -27,13 +27,12 @@ int drawable ic_action_search 0x7f020003
 int drawable ic_launcher 0x7f020004
 int drawable image_button 0x7f020005
 int drawable image_button_bg 0x7f020006
-int id buttonGraph 0x7f0b0005
-int id buttonStartStop 0x7f0b0004
-int id graph 0x7f0b0003
+int id buttonGraph 0x7f0b0004
+int id buttonStartStop 0x7f0b0003
 int id irCenter 0x7f0b0001
 int id irLeft 0x7f0b0000
 int id irRight 0x7f0b0002
-int id menu_settings 0x7f0b0006
+int id menu_settings 0x7f0b0005
 int layout main 0x7f030000
 int menu main 0x7f0a0000
 int string app_name 0x7f080000

@@ -77,13 +77,12 @@ containing a value of this type.
         public static final int image_button_bg=0x7f020006;
     }
     public static final class id {
-        public static final int buttonGraph=0x7f0b0005;
-        public static final int buttonStartStop=0x7f0b0004;
-        public static final int graph=0x7f0b0003;
+        public static final int buttonGraph=0x7f0b0004;
+        public static final int buttonStartStop=0x7f0b0003;
         public static final int irCenter=0x7f0b0001;
         public static final int irLeft=0x7f0b0000;
         public static final int irRight=0x7f0b0002;
-        public static final int menu_settings=0x7f0b0006;
+        public static final int menu_settings=0x7f0b0005;
     }
     public static final class layout {
         public static final int main=0x7f030000;

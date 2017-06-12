@@ -88,13 +88,6 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 		mGyroscope = mSensorManager.getDefaultSensor(Sensor.TYPE_GYROSCOPE);
 		mGravityS = mSensorManager.getDefaultSensor(Sensor.TYPE_GRAVITY);
 
-		GraphView graph = (GraphView) findViewById(R.id.graph);
-		LineGraphSeries<DataPoint> series = new LineGraphSeries<>(new DataPoint[] {
-				new DataPoint(0, 1.1),
-				new DataPoint(-1, 5),
-				new DataPoint(0, 3)
-		});
-		graph.addSeries(series);
 
 
 		helper_.create();		// from IOIOActivity
@@ -146,7 +139,6 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 	}
 
 	public void graph_now(View view) {
-		GraphView graph = (GraphView) findViewById(R.id.graph);
 		LineGraphSeries<DataPoint> series;
 		counter();
 		DataPoint[] n = new DataPoint[counter];
@@ -210,16 +202,18 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 
 
 			// ----------------
-			setText(String.format("%.3f", m_ioio_thread.getIrLeftReading()), irLeftText);
+			//setText(String.format("%.3f", m_ioio_thread.getIrRightReading()), irLeftText);
+			irLeftText.setText(String.valueOf(m_ioio_thread.getIrRightReading()));
 			//setText(String.format("%.3d", counter), irCenterText);
 			Log.d("V",String.valueOf(counter));
 			//setText(String.format("%.3f", m_ioio_thread.getIrRightReading()), irRightText);
 			if (btnStartStop.isChecked()) {
 				//m_ioio_thread.move(0.5f,0.5f,true,true);
 				Log.d("V","Button Pressed");
+				avg_sense();
 				counter();
 
-				updater(mCurrentDegree, false);
+				//updater(mCurrentDegree, false);
 
 				rightspeed = speedright_;
 				leftspeed = speedleft_;
@@ -229,20 +223,23 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 				float centersense = m_ioio_thread.getIrCenterReading();
 
 
-				if (leftsense > rightsense && leftsense >= 0.7){
+				if (leftsense > rightsense && leftsense >= 0.5){
 					//rightspeed = (float)speedright_ - (float) leftsense/2f;
 					rightspeed = (float) speedright_ - leftsense/2f;
+					leftspeed = (float) speedleft_ + leftsense/2f;
 				}
 				if (centersense >= 1.2) {
 					forward = false;
-					updater(mCurrentDegree, true);
+					//updater(mCurrentDegree, true);
 				}
 				if (centersense < 1.2) {
 					forward = true;
 				}
-				if (rightsense > leftsense && rightsense >= 0.7) {
+				if (rightsense > leftsense && rightsense >= 0.5) {
 					//leftspeed = (float)speedleft_ - (float) rightsense/2f;
 					leftspeed = (float) speedleft_ - rightsense/2f;
+					rightspeed = (float) speedright_ + rightsense/2f;
+
 				}
 
 				m_ioio_thread.move(leftspeed, rightspeed, forward, forward);
@@ -255,11 +252,11 @@ public class Main_activity extends Activity implements IOIOLooperProvider, Senso
 		}
 
 		// Sensor downloading
-		if (btnStartStop.isChecked()){
+		//if (btnStartStop.isChecked()){
 			//updater(mCurrentDegree, false);
-			avg_sense();
-			counter();
-		}
+		//	avg_sense();
+		//	counter();
+		//}
 
 
 
